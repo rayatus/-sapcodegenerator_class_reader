@@ -7,7 +7,7 @@ By executing transaction **ZDBFRAMEWORK_WIZARD** a wizard will be showned asking
 * ClassName for the ABAP class which is going to be created. By default it will be "ZCL_< DBTableName >_READ"
 * Package where to save the generated ABAP class
 
-For testing purposes you could execute it by informing:
+For testing purposes you could execute it by using:
 * DataBase table > SFLIGHT
 * Table Type > ZTT_SFLIGHT (already provided by this repo)
 
