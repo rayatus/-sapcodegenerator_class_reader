@@ -846,8 +846,8 @@ CLASS zcl_zdbframework_engine_read IMPLEMENTATION.
     "Is a customizing table?
     SELECT COUNT( * ) FROM dd02l
       WHERE tabname = md_dbname
-        AND contflag = mc_customizing_table
-        AND actflag  = mc_active_version.
+        AND contflag = mc_customizing_table.
+        "AND actflag  = mc_active_version.
     IF sy-subrc IS INITIAL.
       rf_is_custo = abap_true.
     ELSE.
